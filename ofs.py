@@ -58,14 +58,12 @@ class OpenFightStick:
             time.sleep(1)
             self.reset_all()
 
-    def press_buttons(self, *buttons):
-        for button in buttons:
-            self._buttons_state |= 1 << button - 1
+    def press_button(self, button):
+        self._buttons_state |= 1 << button.num
         self._send()
 
-    def release_buttons(self, *buttons):
-        for button in buttons:
-            self._buttons_state &= ~(1 << button - 1)
+    def release_button(self, button):
+        self._buttons_state &= ~(1 << button.num)
         self._send()
 
     def move_hat(self, direction):
