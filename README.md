@@ -33,7 +33,10 @@ Once you're installed CircuitPython on your device of choice, setting up OSF is 
 
 There's no need to compile anything or download additional software.
 
+### Configuration
+Basic configuration is handled in _config.py_. In here, you can configure whether or not your board has WS2812b (or similar) LEDs, which pins each button is connected to and so on.
 
+Currently, the only _required_ buttons are left, down, right and up. Anything you don't need can just be commented out.
 
 <!-- ROADMAP -->
 ## Roadmap
