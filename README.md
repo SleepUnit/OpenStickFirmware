@@ -29,7 +29,7 @@ OSF is built with CircuitPython and intended to run on _any_ board it supports. 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Once you're installed CircuitPython on your device of choice, setting up OSF is as simple as downloading the files from this repository and placing them on the drive that appears on your computer.
+Once you've installed CircuitPython on your device of choice, setting up OSF is as simple as downloading the files from this repository and placing them on the drive that appears on your computer.
 
 There's no need to compile anything or download additional software.
 
